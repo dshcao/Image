@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageCropView">
+        <attr name="aspectX" format="integer" />
+        <attr name="aspectY" format="integer" />
+        <attr name="viewStrokeColor" format="color|reference" />
+        <attr name="viewStrokeWidth" format="dimension" />
+        <attr name="viewMaskColor" format="color|reference" />
+        <attr name="viewShape" format="enum">
+            <enum name="square" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>
